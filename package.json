@@ -4,7 +4,7 @@
   "description": "This is cli based parking management system based on node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/alwaysaman/parking_lot/issues"
   },
-  "homepage": "https://github.com/alwaysaman/parking_lot#readme"
+  "homepage": "https://github.com/alwaysaman/parking_lot#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
 }
